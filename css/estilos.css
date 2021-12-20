@@ -1,0 +1,402 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow-x: hidden;
+}
+nav a{
+    background-color: (156, 106, 202);
+    border-radius: 3%; 
+    text-decoration: none;
+    padding: 3%;
+    color:rgb(72, 130, 196);
+    
+}
+.logoperfil img{
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    transition: 0.5s;
+}
+.navbar-header{
+    font-family: 'Crimson Pro', serif;
+}
+.navbar-header h2{
+    font-family: 'Crimson Pro', serif;
+    color:rgb(72, 130, 196);
+}
+.navbar-header:hover{
+    color: white;
+}
+
+.navbar{
+    box-shadow: 0 5px 10px #efefef;
+}
+.navbar-brand{
+     font-size: 20px;
+     padding: 2px 10px;
+     text-decoration: none;
+     color:rgb(72, 130, 196);
+}
+
+.seccionesperfil a, .logoperfil a{
+    color:rgb(72, 130, 196);
+    display: block;
+    transition: 0.5s;
+}
+.logoperfil h1:hover, .seccionesperil a:hover{
+    color:rgb(72, 130, 196);
+    transform: scale(1.5);
+    border-radius: 3px;
+}
+.titulocita h2{
+    color: rgb(156, 106, 202);
+    font-size: 25px;
+}
+.cande{
+    background-color: white;
+}
+#offcanvasNavbar{
+    width: 60%;
+}
+.collageperfil img{
+    margin-top: 5%;
+    width: 100%;
+}
+.collageperfil h1{
+    color:rgb(81, 119, 163);
+    font-family: 'Crimson Pro', serif;
+    font-size: 60px;
+    margin-top: -28%;
+    margin-left: 34%;
+    animation-name: somosperfil;
+    animation-duration: 5s;
+}
+@keyframes somosperfil{
+    0%{
+        opacity: 0%;
+        color: gray;
+    }
+    100%{
+        opacity: 100%;
+        color:rgb(81, 119, 163);
+    }
+}
+.titlehome{
+    margin-top: 25%;
+    background-color: white;
+    padding: 2%;
+}
+.somos{
+    color: rgb(134, 130, 130);
+}
+.multi{
+    color:rgb(81, 119, 163);
+    font-family: 'Crimson Pro', serif;
+    font-size: 50px;
+}
+.dispositivouno img, .dispositivodos img, .dispositivotres img{
+width: 100%;
+}
+.dispositvodos, .dispositivotres{
+    margin-top: 10%;
+}
+.dispositivotres img{
+    width: 120%;
+}
+.dispositivodos{
+    width: 110%;
+}
+.dispositivouno img:hover, .dispositivodos img:hover, .dispositivotres img:hover{
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+    opacity: 60%;
+}
+.contenido{
+    background-color: rgb(81, 119, 163);
+    padding: 5%;
+}
+.contenido h2{
+    font-size: 40px;
+}
+.imgdispositivos img{
+    width: 70%;
+}
+.descargable h3{
+    background-color: gray;
+    width: 18%;
+    border-radius: 5px;
+    margin-left: 42%;
+    margin-top: 6%;
+    margin-bottom: 10%;
+    font-size: 20px;
+    }
+.descargable h3:hover{
+    background-color: rgb(184, 184, 184) ;
+}
+
+.inspira{
+    background-color: white;
+}
+.inspiratitulo h2{
+    background-color:  rgb(156, 106, 202);
+    color: white; 
+    padding: 1%;
+}
+.inspira h3{
+    font-family: 'Crimson Pro', serif;
+    color:rgb(72, 130, 196);
+    font-size: 50px;
+}
+.inspira h3 span{
+    position: relative;
+}
+.inspira h3 span::after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    background: white;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid rgb(72, 130, 196);
+    animation: escribiendo 3s steps(9) infinite;
+}
+@keyframes escribiendo{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+.redes{
+    margin-top: -20%;
+}
+ .redes i{
+       font-size: 30px;
+       color: rgb(72, 130, 196);
+       margin-top: -10%;
+   }
+.redes i:hover{
+    color:rgb(72, 130, 196);
+    transform: translateY(-10%);
+    transition-duration: 0.5s;
+}
+.redes a{
+    margin-left: 2%
+}
+.titulocita{
+    background-color: rgb(72, 130, 196);
+}
+.canvas{
+    background-color: white;
+    color: rgb(35, 88, 158);
+}
+/* contacto */
+.bodycontacto{
+    background-image: url("globitos2.png");
+    background-size: 100%;
+    background-position-y: -10%;
+    background-color: rgb(195, 219, 241);
+    animation: globitos linear;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    overflow-x: hidden;
+}
+.head{
+    background-color:rgb(81, 119, 163);
+    border-radius: 5px;
+    margin-top: 2%;
+    }
+.borde input{
+    border-color:rgb(81, 119, 163);
+    border-radius: 5px;
+    border-style: solid;
+    width: 60%;
+    padding: 6px;
+
+}
+.borde input:hover{
+    border-color: rgb(72, 130, 196); 
+}
+.envi input{
+    background-color:rgb(81, 119, 163);
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+    transition: 0.8s;
+}
+.envi input:hover{
+    background-color:rgb(136, 170, 241)  ;
+}
+/* temes */
+
+.temesuno{
+    width: 13%;
+    margin-top: -65%;
+    margin-left: 3%;
+    opacity: 60%;
+}
+.temesdos{
+    width: 15%;
+    margin-top:-60%;
+    margin-left:85%;
+    opacity: 60%;
+}
+.temescuatro{
+    width: 10%;
+    margin-top: -30.5%;
+    margin-left:85%;
+    opacity: 60%;
+}
+.temestres{
+    width: 9%;
+    margin-top: -28%;
+    margin-left: 5%;
+    opacity: 60%;
+}
+
+
+
+
+/* audiencia */
+.audiencia1{
+    margin-top: 15%
+}
+.tituloaudiencia h1{
+    color:rgb(81, 119, 163);
+    font-family: 'Crimson Pro', serif;
+    font-size: 60px;
+}
+.tituloaudiencia h2{
+    color: gray;
+    font-family: 'Crimson Pro', serif;
+    font-size: 50px;
+}
+.audienciauno img{
+width: 180%;
+margin-left: -15%;
+}
+.circulouno p{
+    margin-top: -31%;
+    margin-left: 10%;
+}
+.circulodos p{
+    margin-top: -26%;
+    margin-left: 50%;
+}
+.circulotres p{
+    margin-top: -28%;
+    margin-left: 90%;
+}
+.circulocuatro p{
+    margin-top: -6%;
+    margin-left: 3%;
+}
+.circulocinco p{
+    margin-top: -28%;
+    margin-left: 29%;
+}
+.circuloseis p{
+    margin-top: -27%;
+    margin-left: 64%;
+}
+.circulosiete p{
+    margin-top: -6%;
+    margin-left: 68%;
+}
+.circuloocho p{
+    margin-top: -6%;
+    margin-left: 40%;
+}
+
+.circulouno p, .circulodos p, .circulotres p, .circulocuatro p, .circulocinco p, .circuloseis p, .circulosiete p, .circuloocho p{
+    font-size: 20px; 
+    font-family: 'Crimson Pro', serif;
+    transition-duration: 1.2s;
+    color: black;
+}
+.circulouno p:hover, .circulodos p:hover, .circulotres p:hover{
+    transform:translateX(2%);
+    color: gray;
+}
+.circulitouno img, .circulitodos img, .circulitotres img, .circulitocuatro img{
+    width: 20%;
+}
+.circulitouno img{
+    margin-top: -28%; 
+    margin-left: -5%;
+}
+.circulitodos img{
+    margin-top: -70%; 
+    margin-left: 20%;
+}
+
+
+.textoaudiencia{
+    background-color: white;
+    padding: 2%;
+}
+.textouno, .textotres, .textocinco{
+    color: rgb(134, 130, 130);
+}
+.textodos, .textocuatro{
+    color:rgb(81, 119, 163);
+    font-family: 'Crimson Pro', serif;
+    font-size: 50px;
+}
+
+.nuestraaudiencia{
+    background-color: rgb(81, 119, 163);
+    padding-top: 2%;
+    font-family: 'Crimson Pro', serif;
+}
+
+.nuestraaudiencia i, .datoscaras i{
+    font-size: 50px;
+}
+.nuestraaudiencia h3{
+    font-size: 20px;
+}
+.linea{
+    color: white;
+}
+
+/* caras */
+.revista img{
+    width: 100%;
+}
+.sectioncaras{
+    margin-top: 15%;
+    font-family: 'Crimson Pro', serif;
+}
+.sectioncaras h1{
+    background-color: rgb(81, 119, 163);
+    color: white;
+    font-size: 60px;
+    margin-left: 30%;
+}
+.audienciacaras h2{
+    color:  rgb(146, 145, 145);
+    font-size: 40px;
+}
+.datoscaras{
+    background-color: rgb(146, 145, 145);
+    font-family: 'Crimson Pro', serif;
+}
+.datoscaras h3{
+    font-size: 20px;
+}
+.datoscaras h2{
+    color: white;
+}
+/* footer */
+.footersitio a, .footercien a{
+       background-color:rgb(81, 119, 163);
+       color: white;
+       border-radius: 5px;
+       transition-duration: 0.8s;
+}
+.footersitio a:hover, .footercien a:hover{
+    background-color: white;
+       color: rgb(156, 106, 202) ;
+       
+}
